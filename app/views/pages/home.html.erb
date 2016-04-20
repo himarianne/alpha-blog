@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ruby On Rails Course</title>
+    <style>
+      body {
+        background: #a02234;
+      }
+
+      .site {
+        padding: 100px;
+      }
+
+      header {
+        width: 100%;
+      }
+      
+      header ul {
+        margin: 0 auto;
+        padding: 0 0 24px;
+        text-align: center;
+        width: 970px;
+      }
+
+      header ul li {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 12px;
+        vertical-align: middle;
+      }
+
+      header ul li a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      header h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+        text-align: center;
+        width: 970;
+      }
+
+      section {
+        width: 100%;
+      }
+
+      section img {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        padding-bottom: 24px;
+        width: 600px;
+      }
+
+      section p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 600px;
+      }
+
+      footer {
+        width: 100%;
+      }
+
+      footer p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 12px;
+        margin: 0 auto;
+        text-align: center;
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="site">
+      <div class="site-content">
+        <header>
+          <h1>Alpha Blog</h1>
+
+          <ul>
+            <li><%= link_to 'Home', root_path %></li>
+            <li><%= link_to 'About', about_path %></li>
+          </ul>
+        </header>
+
+        <section>
+          <img src="http://www.xtreemsolution.com/img/rubyrails.png">
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non felis at nibh sagittis dictum ut et felis. Etiam sed eros placerat, blandit eros sit amet, dignissim nisl. In lobortis nisl ac erat mollis, quis interdum lorem aliquet.</p>
+
+          <p>Pellentesque et ex ut turpis varius sagittis. Maecenas accumsan sem eu vulputate efficitur. Duis ut ipsum ac orci ultricies posuere. Nam pulvinar nulla sed euismod accumsan.</p>
+        </section>
+
+        <footer>
+          <p>Copyright &copy; 2016</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
